@@ -1,2 +1,2 @@
-`npm i`
-`ionic capacitor run android`
+* `npm i`
+* `ionic capacitor run android`
