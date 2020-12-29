@@ -1,4 +1,4 @@
-## Run on Android
+## Android App
 * `npm install -g @ionic/cli`
 * `npm i`
 * `ng build`
