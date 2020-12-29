@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ cCountry.Country }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-text>
+        Зарегистрировано: {{ cCountry.Confirmed + ' ' }} <ion-text *ngIf="newConfirmed > 0" color="primary">{{ '+' + newConfirmed }}</ion-text>
+      </ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text>
+        Выздоровело: {{ cCountry.Recovered + ' ' }} <ion-text *ngIf="newConfirmed > 0" color="success">{{ '+' + newRecovered }}</ion-text>
+      </ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text>
+        Смертей: {{ cCountry.Deaths + ' ' }} <ion-text *ngIf="newConfirmed > 0" color="danger">{{ '+' + newDeaths }}</ion-text>
+      </ion-text>
+    </ion-item>
+  </ion-card>
+</ion-content>

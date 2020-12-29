@@ -1,5 +1,7 @@
 {
   "name": "native0lab",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
