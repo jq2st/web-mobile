@@ -1,3 +1,5 @@
+##Android
+* `npm install -g @ionic/cli`
 * `npm i`
 * `ng build`
 * `ionic capacitor copy android`
